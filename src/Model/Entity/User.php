@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace App\Model\Entity;
 
-use Authentication\PasswordHasher\DefaultPasswordHasher;//
 use Cake\ORM\Entity;
 
 /**
@@ -13,10 +12,12 @@ use Cake\ORM\Entity;
  * @property string $firstname
  * @property string $lastname
  * @property string $email
- * @property int $phonenumber
+ * @property string $phonenumber
  * @property string $password
  * @property string $gender
- * @property string|null $user_status
+ * @property string $user_status
+ * @property string|null $token
+ * @property string $file
  */
 class User extends Entity
 {
@@ -38,12 +39,8 @@ class User extends Entity
         'gender' => true,
         'user_status' => true,
         'token' => true,
-        // 'file' => true,
+        'file' => true,
     ];
-
-    // Code from bake.
-
-
 
     /**
      * Fields that are excluded from JSON versions of the entity.
@@ -52,14 +49,6 @@ class User extends Entity
      */
     protected $_hidden = [
         'password',
+        'token',
     ];
-
-    // Add this method
-    // protected function _setPassword(string $password) : ?string
-    // {
-    //     if (strlen($password) > 0) {
-    //         return (new DefaultPasswordHasher())->hash($password);
-    //     }
-    // }
-    
 }

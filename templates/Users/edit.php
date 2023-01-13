@@ -29,8 +29,8 @@
                     echo $this->Form->control('password');
                     echo $this->Form->control('gender');
                     echo $this->Form->control('user_status');
-                    echo $this->Form->control('date');
-                    echo $this->Form->control('reset');
+                    // echo $this->Form->control('date');
+                    // echo $this->Form->control('reset');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

@@ -1,0 +1,728 @@
+2023-01-13 09:00:09 notice: Undefined variable: cakeDescription
+Request URL: /
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 40
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:00:12 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 40
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:00:33 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:00:33 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:00:35 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:02:10 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:02:11 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:03:18 notice: Undefined variable: cakeDescription
+Request URL: /users/login
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:03:49 notice: Undefined variable: cakeDescription
+Request URL: /users/forgotpassword
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:04:16 notice: Undefined variable: cakeDescription
+Request URL: /users/login
+Referer URL: http://localhost:8765/users/forgotpassword
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:04:27 notice: Undefined variable: cakeDescription
+Request URL: /users/forgotpassword
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:04:34 notice: Undefined variable: cakeDescription
+Request URL: /users/login
+Referer URL: http://localhost:8765/users/forgotpassword
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:04:44 notice: Undefined variable: cakeDescription
+Request URL: /users/reset?token=41647
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:06:31 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:10:35 notice: Undefined variable: cakeDescription
+Request URL: /
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:10:38 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:10:48 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:12:49 notice: Undefined variable: cakeDescription
+Request URL: /
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:12:51 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+
+2023-01-13 09:13:49 notice: Undefined variable: cakeDescription
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+include /var/www/html/cakephp/templates/element/flash/header.php, line 7
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::_renderElement() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1712
+Cake\View\View::element() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 699
+include /var/www/html/cakephp/templates/layout/mydefault.php, line 5
+Cake\View\View::_evaluate() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::renderLayout() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 860
+Cake\View\View::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/View/View.php, line 819
+Cake\Controller\Controller::render() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() /var/www/html/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php, line 58
+Cake\Http\Server::run() /var/www/html/cakephp/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /var/www/html/cakephp/webroot/index.php, line 40
+

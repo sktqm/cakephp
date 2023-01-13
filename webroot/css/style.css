@@ -8,21 +8,21 @@
 body{
   /* display: flex; */
   /* height: 100vh; */
-  background:url('/img/961.jpg');
+  /* background:url('/img/961.jpg'); */
    /* border-bottom:1px solid #000; padding:10px; */
   background-size: cover;
 }
 
-.container{
+/* .container{
   width: 85%;
-  background:url('/img/2448.jpg');
-  padding: 28px;
-  margin: top 255px;; 
-  border-radius: 25px;
-  box-shadow: inset -2px 2px 2px white;
-  border-style: solid;
+  /* background:url('/img/2448.jpg'); */
+  /* padding: 28px; */
+  /* margin: top 255px;;  */
+  /* border-radius: 25px; */
+  /* box-shadow: inset -2px 2px 2px white; */
+  /* border-style: solid; */
 
-}
+/* } */ */
 
 .form-title{
   font-size: 26px;

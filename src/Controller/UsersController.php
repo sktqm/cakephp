@@ -38,27 +38,52 @@ class UsersController extends AppController
 
         $this->set(compact('users'));
     }
-    public function register()
-    { //created a register named function
-        $user = $this->Users->newEmptyEntity();
-        // $user = $this->Users->newEntity([
-        //     'id' => 24,
-        //     'title'=> "users"
-        // ]);
-        if ($this->request->is('post')) { //post data 
-            $user = $this->Users->patchEntity($user, $this->request->getData()); //
-            if ($this->Users->save($user)) { //save function to save data into database 
-                $this->Flash->success(__('The user has been saved.')); //flasing success message when data is saved
+    public function register(){
+  
+    $this->viewBuilder()->setLayout('mydefault');
+    $user = $this->Users->newEmptyEntity();
+    if ($this->request->is('post')) {
 
-                return $this->redirect(['action' => 'login']); //redirecting page to given action
+
+        $data = $this->request->getData();
+        $productImage = $this->request->getData("file");
+        $fileName = $productImage->getClientFilename();
+        $data["file"] = $fileName;
+        $user = $this->Users->patchEntity($user, $data);
+            // print_r( $user);
+            // die;
+        // print_r($data);die;
+        
+        // echo '<pre>';
+        // print_r($this->request->getData('file'));
+        // die;
+        if ($this->Users->save($user)) {
+            $hasFileError = $productImage->getError();
+
+            if ($hasFileError > 0) {
+                // no file uploaded
+                $data["file"] = "";
+            } else {
+                // file uploaded
+                $fileType = $productImage->getClientMediaType();
+
+                if ($fileType == "image/png" || $fileType == "image/jpeg" || $fileType == "image/jpg") {
+                    $imagePath = WWW_ROOT . "img/" . $fileName;
+                    $productImage->moveTo($imagePath);
+                    $data["file"] = $fileName;
+                }
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again.')); //flash used for messsage to user 
+            $this->Flash->success(__('The user has been saved.'));
+
+            return $this->redirect(['action' => 'list']);
         }
-        $this->set(compact('user')); //compact used to create array  from variables and their valuess
+        $this->Flash->error(__('The user could not be saved. Please, try again.'));
     }
+    $this->set(compact('user'));
+}
     public function login()
     {
-        $this->viewBuilder()->setLayout('mydefault');
+        // $this->viewBuilder()->setLayout('mydefault');
         $user = $this->Users->newEmptyEntity();
         if ($this->request->is('post')) {
             $email = $this->request->getData('email');
@@ -130,7 +155,7 @@ class UsersController extends AppController
     }
     public function editdata($id = null)
     {
-        $session = $this->request->getSession();
+        $session = $this->request->getSession(); //read session data
         if ($session->read('email') != null) {
         } else {
             $this->redirect(['action' => 'login']);
@@ -139,9 +164,42 @@ class UsersController extends AppController
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
+        $fileName2 = $user['file'];
+        
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $user = $this->Users->patchEntity($user, $this->request->getData());
+            $data = $this->request->getData();
+            $productImage = $this->request->getData("file");
+            $fileName = $productImage->getClientFilename();
+            // print_r($fileName);die();
+
+            if($fileName == ''){
+                $fileName = $fileName2;
+            }
+
+            // print_r($file);die();
+            $data["file"] = $fileName;
+            $user = $this->Users->patchEntity($user, $data);
+
+
+            // $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
+
+                $hasFileError = $productImage->getError();
+    
+                if ($hasFileError > 0) {
+                    // no file uploaded
+                    $data["file"] = "";
+                } else {
+                    // file uploaded
+                    $fileType = $productImage->getClientMediaType();
+    
+                    if ($fileType == "image/png" || $fileType == "image/jpeg" || $fileType == "image/jpg") {
+                        $imagePath = WWW_ROOT . "img/" . $fileName;
+                        $productImage->moveTo($imagePath);
+                        $data["file"] = $fileName;
+                    }
+                }
+
                 $this->Flash->success(__('The user has been saved.'));
 
                 return $this->redirect(['action' => 'list']);
@@ -259,7 +317,7 @@ class UsersController extends AppController
                     $user->email = $email;
                     $mailer = new Mailer('default');
                     $mailer->setTransport('gmail'); //your email configuration name
-                    $mailer->setFrom(['koundalshubham049@gmail.com' => 'kshubham']);
+                    $mailer->setFrom(['sktqm53@gmail.com' => 'kshubham']);
                     $mailer->setTo($email);
                     $mailer->setEmailFormat('html');
                     $mailer->setSubject('Verify New Account');

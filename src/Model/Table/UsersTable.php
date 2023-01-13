@@ -154,7 +154,7 @@ class UsersTable extends Table
             ->scalar('gender')
             ->maxLength('gender', 10)
             ->requirePresence('gender', 'create')
-            ->notEmptyString('gender', "please enter  your gender");
+            ->notEmptyString('gender', "please choose  your gender");
 
 
 
@@ -233,6 +233,16 @@ class UsersTable extends Table
                     'last' => true,
                     'message' => 'Password should not match with the previous password'
                 ]
+            ]);
+            $validator
+            ->scalar('file')
+            ->requirePresence('file', 'create')
+            ->notEmptyString('file', 'Please select your file')
+            ->add('file', [
+                'validExtension' => [
+                    'rule' => ['extension', ['gif', 'jpeg', 'png', 'jpg']], // default  ['gif', 'jpeg', 'png', 'jpg']
+                    'message' => 'These files extension are allowed: png ,jpeg, png, jpg'
+                ],
             ]);
         return $validator;
     }
@@ -313,5 +323,6 @@ class UsersTable extends Table
             return false;
         }
     }
+    
 }
 

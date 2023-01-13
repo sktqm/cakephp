@@ -59,6 +59,10 @@
                     <th><?= __('Phone Number') ?></th>
                     <td><?= $this->Number->format($user->phonenumber) ?></td>
                 </tr>
+                <tr>
+                        <th><?= __('File') ?></th>
+                        <td><?= $this->Html->image(h($user->file), array('width' => '300px')) ?></td>
+                    </tr>
             </table>
         </div>
     </div>

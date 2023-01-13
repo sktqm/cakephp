@@ -29,7 +29,7 @@
                         1rem;">
               <div class="card-body p-5 text-center">
 
-                <div class="mb-md-5 mt-md-4 pb-5">
+                <!-- <div class="mb-md-5 mt-md-4 pb-5"> -->
 
                   <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
                   <p class="text-white-50 mb-5">Please enter your
@@ -43,7 +43,7 @@
                   <div class="form-outline form-white mb-4">
                   <span class="error-message" id="password-error"></span>
                             <?= $this->Form->control('password', ['required' => false]) ?>
-                  </div>
+                  <!-- </div> -->
                 <div class="text-center">
                     <a href=""> <?= $this->Html->link(__('Forgot Password?'), ['action' => 'forgotpassword'], ['class' => 'nav-link active']) ?></a>
                 </div>

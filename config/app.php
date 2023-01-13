@@ -248,8 +248,8 @@ return [
         'gmail' => [
             'host' => 'smtp.gmail.com',
             'port' => 587,
-            'username' => 'koundalshubham049@gmail.com', //eg: sample[at]gmail.com
-            'password' => 'vjqpxukscgjzhmhs', //email password generated 
+            'username' => 'sktqm53@gmail.com', //eg: sample[at]gmail.com
+            'password' => 'znbpabpmhfgnotay', //email password generated 
             'className' => 'Smtp',
             'tls' => true,
             'client' => null,

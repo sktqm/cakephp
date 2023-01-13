@@ -29,9 +29,9 @@
                     'female' => 'Female',
                     'other' => 'other'
                 );
-                $attributes=array(
-                    'male'=>false,'value'=>$gender);
-                 echo $this->Form->radio('type', $option, $attributes);
+                // $attributes=array(
+                //     'male'=>false,'value'=>$gender);
+                //  echo $this->Form->radio('type', $option, $attributes);
                     // echo $this->Form->control('user_status');
                     // echo $this->Form->control('date');
                     // echo $this->Form->control('reset');

@@ -17,7 +17,7 @@ use function PHPSTORM_META\type;
 // );
 ?>
 <div class="container">
-    <?= $this->Form->create($user) ?>
+    <?= $this->Form->create($user, ["enctype" => "multipart/form-data"]) ?>
     <legend><?= __('Edit User') ?></legend>
 
     <?= $this->Html->link(__('Back'), ['action' => 'list'], ['class' => 'nav-link active']) ?>
@@ -60,6 +60,13 @@ use function PHPSTORM_META\type;
                     ['required' => false]
                     ) ?>
             <span class="error-message" id="gender-error"></span>
+            <div class="col-md-3">
+                <?= $this->Form->control('file', ['type' => 'file', 'required' => false]) ?>
+                <span class="error-message" id="filename-error"></span>
+            </div>
+            <div class="col-md-3">
+                <td><?= $this->Html->image(h($user->file), array('width'=>'200px')) ?></td>
+            </div>
             </div>
         </div>
     </div>

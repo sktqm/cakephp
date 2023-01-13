@@ -18,9 +18,7 @@
                     <th><?= $this->Paginator->sort('phonenumber') ?></th>
                     <th><?= $this->Paginator->sort('gender') ?></th>
                     <th><?= $this->Paginator->sort('user_status') ?></th>
-                    <th><?= $this->Paginator->sort('date') ?></th>
-                    <th><?= $this->Paginator->sort('modified') ?></th>
-                    <th><?= $this->Paginator->sort('reset') ?></th>
+               
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
             </thead>
@@ -34,9 +32,7 @@
                     <td><?= h($user->phonenumber) ?></td>
                     <td><?= h($user->gender) ?></td>
                     <td><?= h($user->user_status) ?></td>
-                    <td><?= h($user->date) ?></td>
-                    <td><?= h($user->modified) ?></td>
-                    <td><?= h($user->reset) ?></td>
+            
                     <td class="actions">
                         <?= $this->Html->link(__('View'), ['action' => 'view', $user->id]) ?>
                         <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id]) ?>

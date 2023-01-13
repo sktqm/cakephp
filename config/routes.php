@@ -60,7 +60,7 @@ return static function (RouteBuilder $routes) {
          */
         
         $builder->connect('/', ['controller' => 'Users', 'action' => 'register']);
-        $builder->connect('/', ['controller' => 'Users', 'action' => 'function1']);
+        $builder->connect('/abc', ['controller' => 'Users', 'action' => 'function1']);
         $builder->connect('/fun2', ['controller' => 'Users', 'action' => 'function2']);
 
         /*
