@@ -1,0 +1,13 @@
+.error-message{
+    color: red;
+}
+ .log{
+    display: flex;
+    flex-direction: row;
+        color: floralwhite;
+        text-size-adjust: 25px;
+    }
+
+.log label{
+    margin-right: 10px;
+}
